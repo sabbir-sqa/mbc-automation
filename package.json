@@ -1,0 +1,34 @@
+{
+  "name": "mbc-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test tests/ui/",
+    "test:api": "npx playwright test tests/api/",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabbir-sqa/mbc-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabbir-sqa/mbc-automation/issues"
+  },
+  "homepage": "https://github.com/sabbir-sqa/mbc-automation#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29",
+    "colors": "^1.4.0",
+    "dotenv": "^16.5.0",
+    "fs-extra": "^11.3.0"
+  },
+  "dependencies": {
+    "mbc-automation": "file:"
+  }
+}
